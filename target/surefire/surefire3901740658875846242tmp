@@ -1,0 +1,28 @@
+#surefire
+#Tue Nov 12 21:20:04 GMT 2013
+testClassesDirectory=/Users/willimat/Documents/Brownbags/Gradle/demo/gradle-demo/target/test-classes
+classPathUrl.2=/Users/willimat/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+useManifestOnlyJar=true
+classPathUrl.1=/Users/willimat/Documents/Brownbags/Gradle/demo/gradle-demo/target/classes
+reportsDirectory=/Users/willimat/Documents/Brownbags/Gradle/demo/gradle-demo/target/surefire-reports
+classPathUrl.0=/Users/willimat/Documents/Brownbags/Gradle/demo/gradle-demo/target/test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=/Users/willimat/Documents/Brownbags/Gradle/demo/gradle-demo/src/test/java
+surefireClassPathUrl.1=/Users/willimat/.m2/repository/org/apache/maven/surefire/surefire-api/2.7.2/surefire-api-2.7.2.jar
+surefireClassPathUrl.0=/Users/willimat/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.7.2/surefire-junit3-2.7.2.jar
+runOrder=filesystem
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=/Users/willimat/Documents/Brownbags/Gradle/demo/gradle-demo/target/test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+includes0=**/Test*.java
+childDelegation=false
