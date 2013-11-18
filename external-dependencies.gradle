@@ -1,0 +1,21 @@
+datastax = [
+        core: "com.datastax.cassandra:cassandra-driver-core:1.0.4"
+]
+
+mockito= "org.mockito:mockito-all:1.9.5"
+testng= "org.testng:testng:6.8.5"
+
+jerseyVersion="1.17.1"
+jersey = [
+        core: "com.sun.jersey:jersey-core:${jerseyVersion}",
+        server: "com.sun.jersey:jersey-server:${jerseyVersion}",
+        servlet: "com.sun.jersey:jersey-servlet:${jerseyVersion}",
+        client: "com.sun.jersey:jersey-client:${jerseyVersion}",
+        apacheClient: "com.sun.jersey.contribs:jersey-apache-client4:${jerseyVersion}",
+        json: "com.sun.jersey:jersey-json:${jerseyVersion}",
+        guice: "com.sun.jersey.contribs:jersey-guice:${jerseyVersion}"
+]
+
+datastax = [
+        core: "com.datastax.cassandra:cassandra-driver-core:1.0.4"
+]

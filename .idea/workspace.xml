@@ -5,12 +5,21 @@
     <ignored path="sudoku.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/../workspace/mpod_play/STRATOS_SKY/atlassian-ide-plugin.xml" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384777503912" ignored="false" />
-    <file path="/StatusResourceTest.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384778541106" ignored="false" />
-    <file path="/Status.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384777620998" ignored="false" />
+    <file path="/StatusResourceTest.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384780132979" ignored="false" />
+    <file path="/Status.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384779550410" ignored="false" />
     <file path="/StatusResource.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384778493758" ignored="false" />
-    <file path="/fragment.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384778319401" ignored="false" />
+    <file path="/fragment.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384780385706" ignored="false" />
     <file path="/StatusConverter.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384778308520" ignored="false" />
     <file path="/StatusConverterTest.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384778563379" ignored="false" />
+    <file path="/settings.gradle" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384778933498" ignored="false" />
+    <file path="$PROJECT_DIR$/../workspace/new_ddm/trunk/atlassian-ide-plugin.xml" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384782647702" ignored="false" />
+    <file path="$PROJECT_DIR$/service/build/test-results/TEST-williams.mathew.gradle.demo.AppTest.xml" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384779337701" ignored="false" />
+    <file path="/build.gradle" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384782425523" ignored="false" />
+    <file path="/PayloadStatus.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384779501026" ignored="false" />
+    <file path="/SudokuDaoTest.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384782053929" ignored="false" />
+    <file path="$PROJECT_DIR$/../workspace/new_ddm/trunk/settings.gradle" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384780753800" ignored="false" />
+    <file path="/SudokuDao.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384782169389" ignored="false" />
+    <file path="/CassandraClient.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384781980744" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,59 +79,129 @@
     <favorites_list name="sudoku" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="StatusResource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/williams/mathew/gradle/demo/resource/StatusResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatusConverter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/williams/mathew/gradle/demo/converter/StatusConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatusConverterTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/williams/mathew/gradle/demo/converter/StatusConverterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="9" selection-start="495" selection-end="495" vertical-scroll-proportion="0.52389705">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatusResourceTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/williams/mathew/gradle/demo/resource/StatusResourceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="84" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Status.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/williams/mathew/gradle/demo/model/Status.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="StatusResource.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/resource/StatusResource.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="20" column="19" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StatusResourceTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/resource/StatusResourceTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="20" column="4" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StatusConverterTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/converter/StatusConverterTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="27" column="12" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SudokuDao.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/dao/SudokuDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="0" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CassandraClient.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/client/CassandraClient.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="0" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SudokuDaoTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/dao/SudokuDaoTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="34" column="9" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/build.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="15" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/service/build.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="38" column="40" selection-start="995" selection-end="995" vertical-scroll-proportion="0.69512194">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="external-dependencies.gradle" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/external-dependencies.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="20" column="1" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PayloadStatus.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/web/model/PayloadStatus.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="16" column="21" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="CassandraClient.java" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/client/CassandraClient.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="0" selection-start="307" selection-end="906" vertical-scroll-proportion="0.19097222">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -131,11 +210,7 @@
   </component>
   <component name="GradleLocalSettings">
     <option name="availableTasks">
-      <list>
-        <GradleTaskDescriptor>
-          <option name="description" value="Compiles source set 'test:java'." />
-          <option name="name" value="compileTestJava" />
-        </GradleTaskDescriptor>
+      <set>
         <GradleTaskDescriptor>
           <option name="description" value="Assembles the outputs of this project." />
           <option name="name" value="assemble" />
@@ -143,30 +218,6 @@
         <GradleTaskDescriptor>
           <option name="description" value="Assembles and tests this project." />
           <option name="name" value="build" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Processes source set 'test:resources'." />
-          <option name="name" value="processTestResources" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles classes 'test'." />
-          <option name="name" value="testClasses" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Processes source set 'main:resources'." />
-          <option name="name" value="processResources" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Deletes the build directory." />
-          <option name="name" value="clean" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Runs the unit tests." />
-          <option name="name" value="test" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles classes 'main'." />
-          <option name="name" value="classes" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
           <option name="description" value="Assembles and tests this project and all projects that depend on it." />
@@ -177,30 +228,63 @@
           <option name="name" value="buildNeeded" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="description" value="Compiles source set 'main:java'." />
-          <option name="name" value="compileJava" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Generates Javadoc API documentation for the main source code." />
-          <option name="name" value="javadoc" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
           <option name="description" value="Runs all checks." />
           <option name="name" value="check" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
-          <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
+          <option name="description" value="Assembles the main classes." />
+          <option name="name" value="classes" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Deletes the build directory." />
+          <option name="name" value="clean" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Compiles the main Java source." />
+          <option name="name" value="compileJava" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Compiles the test Java source." />
+          <option name="name" value="compileTestJava" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Does a maven install of the archives artifacts into the local .m2 cache." />
           <option name="name" value="install" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
           <option name="description" value="Assembles a jar archive containing the main classes." />
           <option name="name" value="jar" />
         </GradleTaskDescriptor>
-      </list>
+        <GradleTaskDescriptor>
+          <option name="description" value="Generates Javadoc API documentation for the main source code." />
+          <option name="name" value="javadoc" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Processes the main resources." />
+          <option name="name" value="processResources" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Processes the test resources." />
+          <option name="name" value="processTestResources" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Runs the unit tests." />
+          <option name="name" value="test" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Assembles the test classes." />
+          <option name="name" value="testClasses" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="name" value="wrapper" />
+        </GradleTaskDescriptor>
+      </set>
     </option>
     <option name="expandStates">
       <map>
         <entry key="gradle-demo" value="true" />
+        <entry key="gradle-demo/gradle-demo" value="false" />
+        <entry key="service/gradle-demo" value="true" />
       </map>
     </option>
     <option name="userProjectChanges">
@@ -212,11 +296,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/williams/mathew/gradle/demo/model/Status.java" />
-        <option value="$PROJECT_DIR$/src/main/java/williams/mathew/gradle/demo/converter/StatusConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/williams/mathew/gradle/demo/resource/StatusResource.java" />
         <option value="$PROJECT_DIR$/src/test/java/williams/mathew/gradle/demo/resource/StatusResourceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/williams/mathew/gradle/demo/converter/StatusConverterTest.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/model/PayloadStatus.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/model/Status.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/resource/StatusResourceTest.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/service/StatusService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/converter/StatusConverter.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/resource/StatusResource.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/converter/StatusConverterTest.java" />
+        <option value="$PROJECT_DIR$/external-dependencies.gradle" />
+        <option value="$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/client/CassandraClient.java" />
+        <option value="$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/dao/SudokuDaoTest.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/dao/SudokuDao.java" />
+        <option value="$PROJECT_DIR$/service/build.gradle" />
       </list>
     </option>
   </component>
@@ -279,6 +374,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradle-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sudoku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -302,6 +415,78 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sudoku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradle-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sudoku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="converter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradle-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sudoku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -334,6 +519,60 @@
               <option name="myItemId" value="service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradle-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sudoku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -342,13 +581,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="project.propCompiler" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../workspace/new_ddm/trunk" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -364,6 +604,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="williams.mathew.gradle.demo.dao" />
       <recent name="williams.mathew.gradle.demo.converter" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -565,8 +806,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32965687" sideWeight="0.670354" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32965687" sideWeight="0.670354" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -583,10 +825,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.670354" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -675,44 +916,115 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/williams/mathew/gradle/demo/model/Status.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/data/model/Status.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/williams/mathew/gradle/demo/converter/StatusConverter.java">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/williams/mathew/gradle/demo/resource/StatusResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/williams/mathew/gradle/demo/resource/StatusResourceTest.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/converter/StatusConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="84" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
+        <state line="7" column="38" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/williams/mathew/gradle/demo/converter/StatusConverterTest.java">
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/service/StatusService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="9" selection-start="495" selection-end="495" vertical-scroll-proportion="0.52389705">
+        <state line="4" column="13" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/resource/StatusResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="19" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/resource/StatusResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="4" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/converter/StatusConverterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="12" selection-start="806" selection-end="806" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/external-dependencies.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="1" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/web/model/PayloadStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/dao/SudokuDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="9" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/dao/SudokuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/client/CassandraClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="40" selection-start="995" selection-end="995" vertical-scroll-proportion="0.69512194">
+          <folding />
         </state>
       </provider>
     </entry>

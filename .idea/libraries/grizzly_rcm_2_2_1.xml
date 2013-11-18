@@ -1,8 +1,6 @@
 <component name="libraryTable">
   <library name="grizzly-rcm-2.2.1">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.glassfish.grizzly/grizzly-rcm/2.2.1/bundle/63eeaf2c793b36b5b09f54cb278769c83d8a13d5/grizzly-rcm-2.2.1.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.glassfish.grizzly/grizzly-rcm/2.2.1/source/4e5c39b11a1ada26bbffc532e634e6b43e0db4d0/grizzly-rcm-2.2.1-sources.jar!/" />
