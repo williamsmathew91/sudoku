@@ -1,0 +1,4 @@
+task cucumber(type:Exec) {
+    commandLine 'bundle install'
+    commandLine 'cucumber'
+}

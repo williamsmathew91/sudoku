@@ -2,6 +2,8 @@ apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
+apply plugin: 'cloudfoundry'
+
 apply from: "external-dependencies.gradle"
 
 group = 'williams.mathew.gradle.demo'
@@ -12,14 +14,25 @@ description = """gradle-demo"""
 sourceCompatibility = 1.5
 targetCompatibility = 1.5
 
-
-
-repositories {
-     maven { url "http://repo.maven.apache.org/maven2" }
+buildscript{
+    repositories {
+        mavenCentral()
+        maven { url "http://repo.maven.apache.org/maven2" }
+    }
+    dependencies {
+        classpath group: 'org.cloudfoundry', name: 'cf-gradle-plugin', version: '1.0.0'
+    }
 }
-dependencies {
 
+cloudfoundry {
+    target = 'http://api.api.bskyb.com'
+    username = 'stratos@bskyb.com'
+    password = 'strat0s'
+    space = 'dev'
+    file = new File('target/gradle-demo-1.0-SNAPSHOT.jar')
+    uri = 'http://test.api.bskyb.com'
 }
+
 
 task wrapper(type: Wrapper) {
     gradleVersion = '1.4'

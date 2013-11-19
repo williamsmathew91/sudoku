@@ -1,3 +1,4 @@
+
 apply plugin: 'java'
 apply plugin: 'maven'
 
@@ -9,25 +10,23 @@ description = """gradle-demo"""
 sourceCompatibility = 1.5
 targetCompatibility = 1.5
 
+    repositories {
+         maven { url "http://repo.maven.apache.org/maven2" }
+    }
 
+    dependencies {
+        compile "javax.ws.rs:jsr311-api:1.1.1"
+        compile jersey.server
+        compile jersey.json
+        compile jersey.guice
+        compile jersey.servlet
+        compile testng
+        compile datastax.core
 
-repositories {
-     maven { url "http://repo.maven.apache.org/maven2" }
-}
-dependencies {
-    compile "javax.ws.rs:jsr311-api:1.1.1"
-    compile jersey.server
-    compile jersey.json
-    compile jersey.guice
-    compile jersey.servlet
-    compile testng
-    compile datastax.core
-    
-    testCompile group: 'junit', name: 'junit', version:'3.8.1'
-    testCompile mockito
-}
-
-task createDB() {
+        testCompile group: 'junit', name: 'junit', version:'3.8.1'
+        testCompile mockito
+    }
+//task createDB() {
 //    Cluster cluster = Cluster.builder()
 //            .addContactPoint(node)
 //            .build();
@@ -40,4 +39,4 @@ task createDB() {
 //    }
 //
 //    return cluster.connect(keyspace);
-}
+//}
