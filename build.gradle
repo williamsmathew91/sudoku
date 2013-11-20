@@ -33,6 +33,23 @@ cloudfoundry {
     uri = 'http://test.api.bskyb.com'
 }
 
+task functional(type: Exec) {
+    workingDir './functional-test'
+    commandLine 'cucumber'
+}
+
+task deploy(dependsOn: ['copyWarsToJetty', 'startHazelcast']) {
+    println 'sudo service jetty start'.execute().text
+}
+
+task startHazelcast << {
+    println 'sudo service hazelcast start'.execute().text
+}
+
+task copyWarsToJetty(type: Copy) {
+    from 'build/libs'
+    into '/opt/jetty/webapps'
+}
 
 task wrapper(type: Wrapper) {
     gradleVersion = '1.4'

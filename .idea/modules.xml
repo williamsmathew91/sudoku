@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/functional-test/functional-test.iml" filepath="$PROJECT_DIR$/functional-test/functional-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/gradle-demo.iml" filepath="$PROJECT_DIR$/gradle-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
     </modules>

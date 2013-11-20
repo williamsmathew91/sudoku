@@ -12,7 +12,7 @@
     <file path="/StatusConverter.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384778308520" ignored="false" />
     <file path="/StatusConverterTest.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384778563379" ignored="false" />
     <file path="/settings.gradle" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384778933498" ignored="false" />
-    <file path="$PROJECT_DIR$/../workspace/new_ddm/trunk/atlassian-ide-plugin.xml" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384782717576" ignored="false" />
+    <file path="$PROJECT_DIR$/../workspace/new_ddm/trunk/atlassian-ide-plugin.xml" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384954915335" ignored="false" />
     <file path="$PROJECT_DIR$/service/build/test-results/TEST-williams.mathew.gradle.demo.AppTest.xml" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384779337701" ignored="false" />
     <file path="/build.gradle" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384867774599" ignored="false" />
     <file path="/PayloadStatus.java" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384779501026" ignored="false" />
@@ -26,6 +26,7 @@
     <file path="/request_steps.rb" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384865308988" ignored="false" />
     <file path="/response_steps.rb" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384865338767" ignored="false" />
     <file path="/env.rb" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384866448828" ignored="false" />
+    <file path="$PROJECT_DIR$/../workspace/new_ddm/trunk/ddm.iml" changelist="876fe611-2896-40ee-a42a-b6485327ddeb" time="1384952415660" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,17 +89,6 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="SudokuDaoTest.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/dao/SudokuDaoTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="9" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="imports" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/functional-test/Gemfile">
               <provider selected="true" editor-type-id="text-editor">
@@ -111,7 +101,25 @@
           <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/build.gradle">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="24" column="1" selection-start="547" selection-end="547" vertical-scroll-proportion="0.4367589">
+                <state line="44" column="19" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.7169811">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StatusResource.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/resource/StatusResource.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="StatusResourceTest.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/resource/StatusResourceTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="29" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -122,17 +130,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state line="3" column="1" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="status_resource.feature" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/functional-test/features/status_resource.feature">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="29" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <marker date="1384865244309" expanded="true" signature="51:142" placeholder="Scenario: Should get 200" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -177,9 +174,7 @@
             <entry file="file://$PROJECT_DIR$/functional-test/features/step_definitions/response_steps.rb">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="2" column="3" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <marker date="1384865340095" expanded="true" signature="35:74" placeholder="do ... end" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -191,7 +186,7 @@
           <file leaf-file-name="CassandraClient.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/client/CassandraClient.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="0" selection-start="240" selection-end="275" vertical-scroll-proportion="0.16363636">
+                <state line="9" column="0" selection-start="240" selection-end="275" vertical-scroll-proportion="0.10727056">
                   <folding />
                 </state>
               </provider>
@@ -226,6 +221,102 @@
           <option name="name" value="buildNeeded" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
+          <option name="description" value="Displays information about the application deployment" />
+          <option name="name" value="cf-app" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Lists applications running on the targeted Cloud Foundry platform" />
+          <option name="name" value="cf-apps" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Binds services to an application" />
+          <option name="name" value="cf-bind" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Creates a service, optionally binding it to an application" />
+          <option name="name" value="cf-create-service" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Deletes an application deployment" />
+          <option name="name" value="cf-delete" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Deletes a service" />
+          <option name="name" value="cf-delete-service" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="List application environment variables" />
+          <option name="name" value="cf-env" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Logs in to the target Cloud Foundry platform" />
+          <option name="name" value="cf-login" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Logs out of the target Cloud Foundry platform" />
+          <option name="name" value="cf-logout" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Shows the contents of log files" />
+          <option name="name" value="cf-logs" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Maps a URI to an application" />
+          <option name="name" value="cf-map" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Pushes an application" />
+          <option name="name" value="cf-push" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Restarts an application" />
+          <option name="name" value="cf-restart" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Scales application instances up or down" />
+          <option name="name" value="cf-scale" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Displays information about service offerings" />
+          <option name="name" value="cf-service-plans" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Displays information about service instances" />
+          <option name="name" value="cf-services" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Sets environment variables to an application" />
+          <option name="name" value="cf-set-env" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Displays available spaces" />
+          <option name="name" value="cf-spaces" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Starts an application" />
+          <option name="name" value="cf-start" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Stops an application" />
+          <option name="name" value="cf-stop" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Displays information about the target Cloud Foundry platform" />
+          <option name="name" value="cf-target" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Unbinds services from an application" />
+          <option name="name" value="cf-unbind" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Unmaps a URI from application" />
+          <option name="name" value="cf-unmap" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
+          <option name="description" value="Deletes environment variables from an application" />
+          <option name="name" value="cf-unset-env" />
+        </GradleTaskDescriptor>
+        <GradleTaskDescriptor>
           <option name="description" value="Runs all checks." />
           <option name="name" value="check" />
         </GradleTaskDescriptor>
@@ -244,9 +335,6 @@
         <GradleTaskDescriptor>
           <option name="description" value="Compiles the test Java source." />
           <option name="name" value="compileTestJava" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="createDB" />
         </GradleTaskDescriptor>
         <GradleTaskDescriptor>
           <option name="description" value="Does a maven install of the archives artifacts into the local .m2 cache." />
@@ -298,7 +386,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/converter/StatusConverter.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/resource/StatusResource.java" />
         <option value="$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/converter/StatusConverterTest.java" />
         <option value="$PROJECT_DIR$/external-dependencies.gradle" />
         <option value="$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/client/CassandraClient.java" />
@@ -312,6 +399,7 @@
         <option value="$PROJECT_DIR$/functional-test/Gemfile" />
         <option value="$PROJECT_DIR$/functional-test/build.gradle" />
         <option value="$PROJECT_DIR$/service/build.gradle" />
+        <option value="$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/resource/StatusResource.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
@@ -394,6 +482,88 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradle-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sudoku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradle-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sudoku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradle-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sudoku" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -417,9 +587,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -590,6 +760,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="" />
@@ -616,17 +799,17 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browserFamily" value="FIREFOX" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -655,19 +838,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -810,9 +980,9 @@
       <method />
     </configuration>
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.StatusResourceTest.shouldReturn200ReadyWhenServiceOK" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.StatusConverterTest.shouldConvertAllNecessaryFields" />
-      <item index="2" class="java.lang.String" itemvalue="Flash App.functional_tests" />
+      <item index="0" class="java.lang.String" itemvalue="Flash App.functional_tests" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.StatusResourceTest.shouldReturn200ReadyWhenServiceOK" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.StatusConverterTest.shouldConvertAllNecessaryFields" />
       <item index="3" class="java.lang.String" itemvalue="Cucumber.status_resource" />
     </list>
     <recent_temporary>
@@ -954,63 +1124,37 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/dao/SudokuDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="0" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functional-test/.rvmrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="43" selection-start="43" selection-end="43" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
+        <state line="0" column="43" selection-start="43" selection-end="43" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functional-test/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functional-test/functional-test.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/resource/StatusResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="19" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="0" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/dao/SudokuDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="9" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functional-test/features/status_resource.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="29" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1384865244309" expanded="true" signature="51:142" placeholder="Scenario: Should get 200" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/functional-test/features/step_definitions/response_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="3" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1384865340095" expanded="true" signature="35:74" placeholder="do ... end" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +1167,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/client/CassandraClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="240" selection-end="275" vertical-scroll-proportion="0.16363636">
+        <state line="9" column="0" selection-start="240" selection-end="275" vertical-scroll-proportion="0.10727056">
           <folding />
         </state>
       </provider>
@@ -1063,9 +1207,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/williams/mathew/gradle/demo/resource/StatusResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/java/williams/mathew/gradle/demo/resource/StatusResourceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="29" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="1" selection-start="547" selection-end="547" vertical-scroll-proportion="0.4367589">
+        <state line="44" column="19" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.7169811">
           <folding />
         </state>
       </provider>

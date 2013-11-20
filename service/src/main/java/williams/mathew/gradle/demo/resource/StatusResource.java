@@ -1,13 +1,13 @@
 package williams.mathew.gradle.demo.resource;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
+//import javax.ws.rs.GET;
+//import javax.ws.rs.Path;
 
 import williams.mathew.gradle.demo.converter.StatusConverter;
 import williams.mathew.gradle.demo.service.StatusService;
 import williams.mathew.gradle.demo.web.model.PayloadStatus;
 
-@Path("/status")
+//@Path("/status")
 public class StatusResource{
     private StatusConverter statusConverter;
     private StatusService statusService;
@@ -17,7 +17,7 @@ public class StatusResource{
         this.statusService = statusService;
     }
 
-    @GET
+//    @GET
 	public PayloadStatus getStatus() {
         return statusConverter.toPayload(statusService.getStatus());
 	}
