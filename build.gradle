@@ -24,14 +24,21 @@ buildscript{
     }
 }
 
-cloudfoundry {
-    target = 'http://api.api.bskyb.com'
-    username = 'stratos@bskyb.com'
-    password = 'strat0s'
-    space = 'dev'
-    file = new File('target/gradle-demo-1.0-SNAPSHOT.jar')
-    uri = 'http://test.api.bskyb.com'
+task killMirage(type: Exec) {
+
+
+    standardOutput = new ByteArrayOutputStream()
 }
+
+cloudfoundry {
+    target = 'https://api.api.bskyb.com/'
+    username = 'crm@bskyb.com'
+    password = 'strat0s'
+    space = 'api'
+    file = new File('target/gradle-demo-1.0-SNAPSHOT.jar')
+    uri = 'https://test.api.bskyb.com/'
+}
+
 
 task functional(type: Exec) {
     workingDir './functional-test'
@@ -42,8 +49,16 @@ task deploy(dependsOn: ['copyWarsToJetty', 'startHazelcast']) {
     println 'sudo service jetty start'.execute().text
 }
 
+task stopJetty << {
+    println 'sudo sevice jetty stop'.execute().text
+}
+
 task startHazelcast << {
     println 'sudo service hazelcast start'.execute().text
+}
+
+task stopHazelcast << {
+    println 'sudo service hazlecast stop'.execute().text
 }
 
 task copyWarsToJetty(type: Copy) {
