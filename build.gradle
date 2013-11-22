@@ -3,6 +3,7 @@ apply plugin: 'maven'
 apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'cloudfoundry'
+apply plugin: 'war'
 
 apply from: "external-dependencies.gradle"
 
@@ -14,12 +15,24 @@ description = """gradle-demo"""
 sourceCompatibility = 1.5
 targetCompatibility = 1.5
 
+war {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Demo', 'Implementation-Version': 1.0
+    }
+}
+
 buildscript{
     repositories {
         mavenCentral()
         maven { url "http://repo.maven.apache.org/maven2" }
     }
     dependencies {
+        if(project.hasProperty('dev')) {
+            println 'getting dependencies the dev way'
+        } else {
+            println 'getting dependencies the default way'
+        }
+
         classpath group: 'org.cloudfoundry', name: 'cf-gradle-plugin', version: '1.0.0'
     }
 }
@@ -30,13 +43,19 @@ task killMirage(type: Exec) {
     standardOutput = new ByteArrayOutputStream()
 }
 
+tasks.withType(Test) {
+    //   maxParallelForks = Runtime.runtime.availableProcessors / 2
+    //with i got 1min23, 1min 17, without 1min 55
+    maxParallelForks = 2
+}
+
 cloudfoundry {
     target = 'https://api.api.bskyb.com/'
+    uri = 'http://gradleDemo.api.bskyb.com/'
     username = 'crm@bskyb.com'
     password = 'strat0s'
-    space = 'api'
-    file = new File('target/gradle-demo-1.0-SNAPSHOT.jar')
-    uri = 'https://test.api.bskyb.com/'
+    space = 'development'
+    file = new File('build/libs/gradle-demo-1.0-SNAPSHOT.war')
 }
 
 
@@ -67,5 +86,5 @@ task copyWarsToJetty(type: Copy) {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.4'
+    gradleVersion = '1.8'
 }

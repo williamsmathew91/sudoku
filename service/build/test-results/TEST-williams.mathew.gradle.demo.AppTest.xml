@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="williams.mathew.gradle.demo.AppTest" tests="1" failures="0" errors="0" timestamp="2013-11-20T13:00:43" hostname="mpod-VirtualBox" time="0.0030">
+<testsuite name="williams.mathew.gradle.demo.AppTest" tests="1" failures="0" errors="0" timestamp="2013-11-22T13:56:09" hostname="mpod-VirtualBox" time="0.0020">
   <properties/>
-  <testcase name="testApp" classname="williams.mathew.gradle.demo.AppTest" time="0.0030"/>
+  <testcase name="testApp" classname="williams.mathew.gradle.demo.AppTest" time="0.0020"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
